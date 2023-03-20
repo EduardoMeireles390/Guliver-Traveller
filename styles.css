@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.root{
+    --gradiente-start:rgba(4 ,9, 30, .3);
+    --gradiente-end:rgba(4 ,9, 30, .9);
+    --color-yellow:#fcd404
+}
+
+body{
+    width: 100%;
+    height: 90vmin;
+    color: black;
+}
+
+.imagem_viajante{
+    background-image:linear-gradient(#130e0ea4, #38383d2d),
+    url(Img/imagem\ 1.jpg);
+    width: 100%;
+    height: 90vmin;
+    border-radius: 0 0 15% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+
+main{
+    margin: 10px 2% 5%;
+    width: 90%;
+}
+
+.inicio{
+    margin: 20px 0 10px ;
+    align-items: center;
+ }
+
+.lugares_recomendados{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-card{
+    display: flex;
+    gap: 50px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    color: black;
+    border: 3px solid #fcd404;
+ }
+
+.imagem_turistica{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction:center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fcd404;
+ }
+
+.dicas{
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.item{
+    width: 604px;
+    height: 559px;
+}
+
+.img1{
+    background-image: linear-gradient(#130e0e57, #38383d1c),
+    url(Img/dicas.png);
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    border: 3px solid #fcd404;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.img2{
+    background-image: linear-gradient(#130e0e57, #38383d1c),
+    url(Img/hotel.png);
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    border: 3px solid #fcd404;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    gap: 24px;
+    align-items: center;
+}
+
+button{
+    padding: 8px, 16px, 8px, 16px;
+    width: 178px;
+    height: 48px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    background-color: #fcd404;
+}
+
+.reviews{
+    margin: 50px 0px;
+}
+
+.subtitulo{
+    margin-bottom: 30px;
+}
+.opinioes_container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+}
+
+.opiniao{
+    padding: 10px 20px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    flex-direction: column;
+    border: 3px solid #fcd404;
+    text-align: center;
+}
+
+.opiniao_1 p{
+    margin-top: 30px;
+}
+
+.opiniao_2 p{
+    margin-top: 30px;
+}
+
+.opiniao_3 p{
+    margin-top: 30px;
+
+}
+
+.imagem_opiniao1{
+    margin-top: 40px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    border: 3px solid #fcd404;
+    border-radius: 10px;
+    width: 320px;
+    align-items: center;
+}
+
+.imagem_opiniao2{
+    margin-top: 20px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    border: 3px solid #fcd404;
+    justify-content: end;
+    border-radius: 10px;
+    width: 320px;
+    height: 62%;
+}
+
+.imagem_opiniao3{
+    margin-top: 20px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    border: 3px solid #fcd404;
+    border-radius: 10px;
+    width: 320px;
+    height: 62%;
+}
+
+footer{
+    width: 50%;
+    height: 10%;
+    background-color: rgb(227, 227, 227);
+    border: 3px solid #fcd404;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
