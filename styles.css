@@ -14,7 +14,7 @@ body{
     width: 100%;
     height: 90vmin;
     color: black;
-    background-color: rgb(245, 246, 247);
+    background-color: rgb(0, 0, 0);
 }
 
 .imagem_viajante{
@@ -137,13 +137,54 @@ button{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 300px;
+    height: auto;
     gap: 50px;
 }
 
 .opiniao{
     padding: 10px 20px;
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fcd404;
     border-radius: 10px;
+    flex-direction: column;
+    height: auto;
+}
+
+.opiniao_1 p{
+    margin-top: 30px;
+}
+
+.opiniao_2 p{
+    margin-top: 30px;
+}
+
+.opiniao_3 p{
+    margin-top: 30px;
+}
+
+.imagem_opiniao1{
+    margin-top: 20px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 100%;
+    height: 76%;
+}
+
+.imagem_opiniao2{
+    margin-top: 20px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    justify-content: end;
+    border-radius: 10px;
+    width: 100%;
+    height: 76%;
+}
+
+.imagem_opiniao3{
+    margin-top: 20px;
+    background-image: linear-gradient(#130e0e57, #38383d1c);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 100%;
+    height: 76%;
 }
