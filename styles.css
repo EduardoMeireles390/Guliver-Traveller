@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .root{
     --gradiente-start:rgba(4 ,9, 30, .3);
     --gradiente-end:rgba(4 ,9, 30, .9);
@@ -15,6 +19,42 @@ body{
     width: 100%;
     height: 90vmin;
     color: black;
+}
+
+.header-menu{
+    position: absolute;
+    top: 0;
+    margin: 10px;
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu li {
+    width: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: orange;
+}
+
+.root{
+    --gradiente-start:rgba(4 ,9, 30, .3);
+    --gradiente-end:rgba(4 ,9, 30, .9);
 }
 
 .imagem_viajante{
@@ -149,36 +189,17 @@ button{
     padding: 10px 20px;
     background-color: rgb(227, 227, 227);
     border-radius: 10px;
-    flex-direction: column;
     border: 3px solid #fcd404;
     text-align: center;
+    flex-wrap: wrap;
 }
 
-.opiniao_1 p{
+.opiniao p {
     margin-top: 30px;
 }
 
-.opiniao_2 p{
+.imagem_opiniao{
     margin-top: 30px;
-}
-
-.opiniao_3 p{
-    margin-top: 30px;
-
-}
-
-.imagem_opiniao1{
-    margin-top: 40px;
-    background-image: linear-gradient(#130e0e57, #38383d1c);
-    background-repeat: no-repeat;
-    border: 3px solid #fcd404;
-    border-radius: 10px;
-    width: 320px;
-    align-items: center;
-}
-
-.imagem_opiniao2{
-    margin-top: 20px;
     background-image: linear-gradient(#130e0e57, #38383d1c);
     background-repeat: no-repeat;
     border: 3px solid #fcd404;
@@ -186,16 +207,7 @@ button{
     border-radius: 10px;
     width: 320px;
     height: 62%;
-}
-
-.imagem_opiniao3{
-    margin-top: 20px;
-    background-image: linear-gradient(#130e0e57, #38383d1c);
-    background-repeat: no-repeat;
-    border: 3px solid #fcd404;
-    border-radius: 10px;
-    width: 320px;
-    height: 62%;
+    align-self: auto;
 }
 
 footer{
